@@ -17,8 +17,9 @@ jobs:
       with:
         distribution: 'temurin'
         java-version: '21'
+        cache: 'maven'
         
-    - name: Build
-      run: javac temperature/Main.java
+    - name: Test
+      run: mvn test
     - name: Verify
-      run: java -ea -classpath . temperature.Main
+      run: mvn verify
