@@ -1,1 +1,3 @@
-temperature\TemperatureBatchProcessorTest.class
+temperature\TemperatureBatchProcessorErrorTest.class
+temperature\TemperatureBatchProcessorSummaryTest.class
+temperature\TemperatureBatchProcessorTestHelper.class
