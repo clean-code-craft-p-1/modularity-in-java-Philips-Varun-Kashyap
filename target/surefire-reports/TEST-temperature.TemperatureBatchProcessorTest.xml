@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="temperature.TemperatureBatchProcessorTest" time="0.353" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="temperature.TemperatureBatchProcessorTest" time="0.274" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\320281944\AppData\Local\Temp\surefire3451236382740210259\surefirebooter-20260529112433807_3.jar C:\Users\320281944\AppData\Local\Temp\surefire3451236382740210259 2026-05-29T11-24-33_543-jvmRun1 surefire-20260529112433807_1tmp surefire_0-20260529112433807_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\320281944\AppData\Local\Temp\surefire3133704103808406100\surefirebooter-20260529114642094_3.jar C:\Users\320281944\AppData\Local\Temp\surefire3133704103808406100 2026-05-29T11-46-41_787-jvmRun1 surefire-20260529114642094_1tmp surefire_0-20260529114642094_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="TemperatureBatchProcessorTest"/>
     <property name="surefire.test.class.path" value="C:\LLM_Session\modularity-in-java-Philips-Varun-Kashyap\target\test-classes;C:\LLM_Session\modularity-in-java-Philips-Varun-Kashyap\target\classes;C:\Users\320281944\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.4\junit-jupiter-5.11.4.jar;C:\Users\320281944\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.4\junit-jupiter-api-5.11.4.jar;C:\Users\320281944\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\320281944\.m2\repository\org\junit\platform\junit-platform-commons\1.11.4\junit-platform-commons-1.11.4.jar;C:\Users\320281944\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\320281944\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.4\junit-jupiter-params-5.11.4.jar;C:\Users\320281944\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.4\junit-jupiter-engine-5.11.4.jar;C:\Users\320281944\.m2\repository\org\junit\platform\junit-platform-engine\1.11.4\junit-platform-engine-1.11.4.jar;"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\320281944\AppData\Local\Temp\surefire3451236382740210259\surefirebooter-20260529112433807_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\320281944\AppData\Local\Temp\surefire3133704103808406100\surefirebooter-20260529114642094_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -57,11 +57,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="doesNotCreateSummaryWhenInputFileIsMissing" classname="temperature.TemperatureBatchProcessorTest" time="0.167">
+  <testcase name="doesNotCreateSummaryWhenInputFileIsMissing" classname="temperature.TemperatureBatchProcessorTest" time="0.16">
     <system-out><![CDATA[Error: File not found.
 ]]></system-out>
   </testcase>
-  <testcase name="writesSummaryForValidTemperatureReadings" classname="temperature.TemperatureBatchProcessorTest" time="0.071">
+  <testcase name="writesSummaryForValidTemperatureReadings" classname="temperature.TemperatureBatchProcessorTest" time="0.039">
     <system-out><![CDATA[============================================================
 Temperature Analysis Summary
 ============================================================
@@ -72,14 +72,14 @@ Max temperature: 26.10
 Min temperature: 22.40
 Average temperature: 24.10
 ------------------------------------------------------------
-Report saved to C:\Users\320281~1\AppData\Local\Temp\junit-2242197128866731441\test_temps.csv_summary.txt
+Report saved to C:\Users\320281~1\AppData\Local\Temp\junit-8796988613856791060\test_temps.csv_summary.txt
 ]]></system-out>
   </testcase>
-  <testcase name="doesNotCreateSummaryWhenNoValidDataExists" classname="temperature.TemperatureBatchProcessorTest" time="0.019">
+  <testcase name="doesNotCreateSummaryWhenNoValidDataExists" classname="temperature.TemperatureBatchProcessorTest" time="0.012">
     <system-out><![CDATA[No valid temperature data found.
 ]]></system-out>
   </testcase>
-  <testcase name="writesInvalidLineDetailsForMixedInput" classname="temperature.TemperatureBatchProcessorTest" time="0.012">
+  <testcase name="writesInvalidLineDetailsForMixedInput" classname="temperature.TemperatureBatchProcessorTest" time="0.009">
     <system-out><![CDATA[============================================================
 Temperature Analysis Summary
 ============================================================
@@ -94,10 +94,10 @@ Invalid lines:
   Line 2: bad line
   Line 3: 09:16:00,not-a-number
   Line 4: 09:17:00,250
-Report saved to C:\Users\320281~1\AppData\Local\Temp\junit-1347217171394079380\mixed_temps.csv_summary.txt
+Report saved to C:\Users\320281~1\AppData\Local\Temp\junit-914839742520003225\mixed_temps.csv_summary.txt
 ]]></system-out>
   </testcase>
-  <testcase name="writesExactTemperatureStatistics" classname="temperature.TemperatureBatchProcessorTest" time="0.019">
+  <testcase name="writesExactTemperatureStatistics" classname="temperature.TemperatureBatchProcessorTest" time="0.013">
     <system-out><![CDATA[============================================================
 Temperature Analysis Summary
 ============================================================
@@ -108,7 +108,7 @@ Max temperature: 40.00
 Min temperature: 10.00
 Average temperature: 25.00
 ------------------------------------------------------------
-Report saved to C:\Users\320281~1\AppData\Local\Temp\junit-5957670899079782814\stats_temps.csv_summary.txt
+Report saved to C:\Users\320281~1\AppData\Local\Temp\junit-14234058897849974862\stats_temps.csv_summary.txt
 ]]></system-out>
   </testcase>
 </testsuite>

@@ -24,4 +24,17 @@ final class TemperatureBatchProcessorUtils {
         out.printf("Min temperature: %.2f%n", minTemp);
         out.printf("Average temperature: %.2f%n", avgTemp);
     }
+
+    static void writeInvalidLines(PrintWriter out, List<String> badLines, boolean addLeadingBlankLine) {
+        if (badLines.isEmpty()) {
+            return;
+        }
+        if (addLeadingBlankLine) {
+            out.println();
+        }
+        out.println("Invalid lines:");
+        for (String badLine : badLines) {
+            out.println(badLine);
+        }
+    }
 }
