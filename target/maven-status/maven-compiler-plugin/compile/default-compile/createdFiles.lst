@@ -1,7 +1,0 @@
-temperature\TemperatureBatchReporter.class
-temperature\TemperatureBatchAnalyzer.class
-temperature\TemperatureBatchResult.class
-temperature\TemperatureReadingValidator.class
-temperature\TemperatureBatchProcessorUtils.class
-temperature\Main.class
-temperature\TemperatureBatchProcessor.class
